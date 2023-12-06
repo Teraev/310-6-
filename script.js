@@ -102,7 +102,7 @@ let cars = [
  ]
 let new_y = +prompt("скидка")
  
-let discount = cars.filter(item => {
-    if ((item.cost * new_y)/100 )
-    console.log(item.cost);
-})
+let discount = cars.filter(item => 
+    item.cost = item.cost /100 * new_y  )
+ console.log(discount);
+    
